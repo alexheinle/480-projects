@@ -1,0 +1,26 @@
+{
+   "locations":[
+
+      {
+         "api":"www.thesportsdb.com/api/v1/json/1/searchplayers.php?p=Ben%20Roethlisberger",
+         "parameters":[
+            {
+               "query":"step1.forecastrR",
+               "values":"player[0].[strPlayer, strBirthLocation, strSport]"
+            }
+         ]
+
+      },
+      {
+         "api":"api.nytimes.com/svc/search/v2/articlesearch.json?q=___Hometown___&api-key=QGx95r9zUg7UdmmYnGWqwGMVrZlfKhlk",
+         "parameters":[
+            {
+               "query":"step1.forecast",
+               "values":"response.docs[*].snippet"
+            }
+         ]
+      }
+
+     ]
+
+}
